@@ -73,16 +73,16 @@ const Hero = () => (
         {/* Image de fond avec overlay progressif */}
         <div className="absolute inset-0 z-0">
             <img
-                src="https://images.unsplash.com/photo-1436491865332-7a61a109c0f3?auto=format&fit=crop&q=80"
+                src="/assets/images/hero.jpeg"
                 alt="Travel background"
-                className="w-full h-full object-cover opacity-30"
+                className="w-full h-full object-cover opacity-50"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-slate-950/50 via-slate-950 to-slate-950"></div>
         </div>
 
         <div className="relative z-10 text-center px-6">
             <motion.h2
-                initial={{ y: 30, opacity: 0 }}
+                initial={{ y: 30, opacity: 1 }}
                 animate={{ y: 0, opacity: 1 }}
                 className="text-6xl md:text-8xl font-black mb-6 tracking-tight"
             >
@@ -142,9 +142,9 @@ const ModuleGrid = ({ delay = 0 }) => {
             id: "vtc"
         },
         {
-            title: "Objectif Canada",
-            desc: "Votre pont vers l'Amérique du Nord. Immigration, emploi et intégration facilités par NovaAI.",
-            img: "https://images.unsplash.com/photo-1503125558445-e1b013c6693d?auto=format&fit=crop&q=80",
+            title: "Objectif Immigration",
+            desc: "Votre pont vers le monde. Immigration, emploi et intégration facilités par NovaTravel.",
+            img: "/assets/images/immigration1.jpeg",
             icon: ShieldCheck,
             color: "text-nova-purple",
             id: "immigration"
