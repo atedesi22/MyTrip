@@ -171,7 +171,7 @@ const Hero = () => (
 
             {/* Description adaptée */}
             <p className="text-slate-400 text-sm lg:text-xl max-w-xl lg:max-w-2xl mx-auto mb-10 lg:mb-12">
-                VTC, Vols, Hébergement et votre projet d'immigration au Canada. MyTrip centralise tout votre voyage.
+                VTC, Vols, Hébergement et votre projet d'immigration. MyTrip centralise tout votre voyage.
             </p>
 
             {/* CTA Buttons - Colonne sur mobile, ligne sur desktop */}
