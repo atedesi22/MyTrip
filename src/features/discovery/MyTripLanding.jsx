@@ -39,7 +39,7 @@ const MobileNavbarBottom = () => {
         { name: 'Explorer', icon: Search, href: '#' },
         { name: 'Voyage', icon: Plane, href: '#vols' },
         { name: 'Moi', icon: User, href: '#profile' }, // Simule le profil NovaVerse
-        { name: 'Canada', icon: Briefcase, href: '#immigration' },
+        { name: 'Immigration', icon: Briefcase, href: '#immigration' },
     ];
 
     return (
